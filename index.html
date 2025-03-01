@@ -4,69 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/styles.css">
   </head>
   <body>
     <header>
-      <img src="/imgs/geek.png" alt="logo" />
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </nav>
+      <div class="menucon">
+        <img src="/imgs/geek.png" alt="logo" />
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
     </header>
 
     <div id="hero-section">
-      <div id="hero-content">
-        <h1>Welcome to my Landing page</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit,
-          cupiditate doloremque. Officiis ex soluta totam ea quisquam provident
-          maiores perspiciatis.
-        </p>
-        <button>Sign Up</button>
+      <div id="hero-content-area">
+        <div id="hero-content">
+          <h1>Welcome to my Landing page</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit,
+            cupiditate doloremque. Officiis ex soluta totam ea quisquam
+            provident maiores perspiciatis.
+          </p>
+          <button>Sign Up</button>
+        </div>
+        <img src="/imgs/coding.png" alt="HTML, CSS, Javascript, PHP" />
       </div>
       <img src="#" alt="" />
     </div>
 
-    <div id="section-1">
+    <div id="card-section">
       <h2>Some random information.</h2>
-      <div class="col-4 card">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-          enim.
-        </p>
-      </div>
-      <div class="col-4 card">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-          enim.
-        </p>
-      </div>
-      <div class="col-4 card">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-          enim.
-        </p>
-      </div>
-      <div class="col-4 card">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-          enim.
-        </p>
+        <div id="card-container">
+          <div class="col-4 card">
+              <img src="/imgs/coding.gif" alt="" />
+              <p>  
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim.
+              </p>
+            </p>
+          </div>
+          <div class="col-4 card">
+              <img src="/imgs/graphic-designer.gif" alt="" />
+              <p>  
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim.
+              </p>
+          </div>
+          <div class="col-4 card">
+              <img src="/imgs/videogame-console.gif" alt="" />
+              <p>  
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim.
+              </p>
+          </div>
+          <div class="col-4 card">
+              <img src="/imgs/owl.gif" alt="" />
+              <p>  
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, enim.
+              </p>
+          </div>
       </div>
     </div>
 
-    <div id="section-2">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus atque
-        facere quibusdam consequuntur, nobis deleniti quasi. Totam, esse
-        adipisci tenetur cupiditate consequatur quibusdam quam earum officia,
-        accusantium maiores molestias ex.
-      </p>
-      <p>-Thor, God of Thunder</p>
+    <div id="testimonial-section">
+      <div id="testimonial-container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus atque
+          facere quibusdam consequuntur, nobis deleniti quasi. Totam, esse
+          adipisci tenetur cupiditate consequatur quibusdam quam earum officia,
+          accusantium maiores molestias ex.
+        </p>
+        <p class="reviewer-name">-Thor, God of Thunder</p>
+    </div>
     </div>
 
-    <div id="section-3">
+    <div id="cta-section">
       <div id="cta-container">
         <div id="cta-content">
           <h4>Call to action! It's Time!!</h4>
@@ -79,7 +90,7 @@
     </div>
 
     <footer>
-        <p>Copyright &copy; The Odin Project 2025!</p>
+      <p>Copyright &copy; The Odin Project 2025!</p>
     </footer>
   </body>
 </html>
